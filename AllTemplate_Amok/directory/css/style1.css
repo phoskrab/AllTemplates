@@ -1,0 +1,188 @@
+
+.mt-100 {
+    margin-top: 100px; 
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.panel-default{
+    border:none;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-size: 15px;
+}
+
+.header {
+    padding-top: 50px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+
+.content {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+}
+.pull-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn-circle {
+    border-radius: 20px;
+}
+
+.input-group input {
+    border: 0;
+    box-shadow: none;
+    padding-right: 30px;
+}*/
+.input-group input:focus,
+.input-group input:active {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+/*mainContainer*/
+.mainContain{
+    padding: 0px;
+    clear: both;
+    border-radius: 2px;
+    background:white;
+}
+.mainLeft{
+    padding: 0px;
+    border-radius: 2px;
+}
+.mainCenter{
+    padding: 0px;
+    border-radius: 4px;
+    margin-top: 2px;
+    background:white;
+}
+.mainRight{
+    padding: 0px;
+    background:blue;
+    border-radius: 2px;
+}
+body{
+    background:#F6F6F6;
+}
+.mainBanner{
+
+    height: 200px;
+    padding: 0px;
+    clear: both;
+    margin-top:54px;
+}
+.myPanel{
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+
+}
+.panel{
+    background: none;
+}
+.myEvent{
+    display: none;
+}
+.btn-group > .btn:first-child {
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.mybox1{
+    /*background-color: #FFF;*/
+   border-bottom: 1px solid #F2EAEA;
+}
+.mybox1:hover{
+    opacity: 0.97;
+    color: gray;
+    background-color:#F9F9F9;
+
+}
+
+.panel-danger {
+    border-radius: 0px;
+    background: white;
+}
+.mybox1{
+    border-left:1px solid thin black;
+}
+.myimage{
+    text-align:center;
+     margin-top:20px;
+     padding-top:0px;
+}
+.desc{
+    padding-top: 1px;
+    color: black;
+    font-size: 15px;
+}
+.rowbox{
+    margin-top: 7px;
+    border-radius: 3px;
+    border-bottom: 1px solid white;
+}
+.mybox {
+   margin-top: 10px;
+padding: 0px;
+border-top: 1px solid #F2EAEA;
+border-bottom: 1px solid #F2EAEA;
+border-right: 1px solid #F2EAEA;
+border-radius: 2px;
+
+}
+.mybox:hover{
+    background: #F8F8F8;
+    opacity: 0.80;
+}
+.myStartup{
+    margin-top: 10px;
+}
+.btn-group{
+    border:none;
+}
+.imageborder{
+    border: 1px solid #5E5E69;
+   padding: 0px;
+}
+.alert-dismissible:hover{
+    background: #DDDFE2;
+}
+h4{
+    color: #10131A;
+font-family: helvetica,arial,sans-serif;
+font-size: 18px;
+font-weight: bold;
+line-height: 16px;
+}
+p{
+    font-family: helvetica,arial,sans-serif;
+font-size: 12px;
+line-height: 16px;
+}
+.navbar-inverse {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.panel-primary > .panel-heading {
+    color: #695A5A;
+    background-color:white;
+    border-color: #E9EBEE;
+    border-radius: 2px;
+}

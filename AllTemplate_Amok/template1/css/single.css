@@ -1,0 +1,13 @@
+.descript{
+	    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+    font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+font-size: 16px;
+color: #646464;
+text-align: justify;
+line-height: 30px;
+}

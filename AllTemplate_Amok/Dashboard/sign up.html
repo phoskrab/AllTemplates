@@ -1,0 +1,92 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/signup.css">
+<title>Login_In</title>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<body>
+	<div class="container" id="wrap">
+	  	<div class="row">
+	        <div class="col-md-6 col-md-offset-3">
+	            <form action="r" method="post" accept-charset="utf-8" class="form frm" role="form"> 
+	              <legend><center>Sign Up</center></legend>
+	                    <div class="row">
+	                        <div class="col-xs-6 col-md-6">
+	                            <input type="text" required="" name="firstname" value="" class="form-control input-md" placeholder="First Name"  />                        
+	                        </div>
+	                        <div class="col-xs-6 col-md-6">
+	                            <input type="text" required="" name="lastname" value="" class="form-control input-md" placeholder="Last Name"  />                        
+	                        </div>
+	                    </div>
+	                    <input type="text" name="email" required="" value="" class="form-control input-md" placeholder="Your Email"  />
+	                    <input type="password" required="" name="password" value="" class="form-control input-md" placeholder="Password"  />
+	                    <input type="password" required="" name="confirm_password" value="" class="form-control input-md" placeholder="Confirm Password"  /> 
+	                     <label>Birth Date</label>                    
+					<div class="row">
+						<div class="col-xs-4 col-md-4">
+							<select name="month" required="" class = "form-control input-md">
+								<option value="">Month</option>
+								<option value="01">Jan</option>
+								<option value="02">Feb</option>
+								<option value="03">Mar</option>
+								<option value="04">Apr</option>
+								<option value="05">May</option>
+								<option value="06">Jun</option>
+								<option value="07">Jul</option>
+								<option value="08">Aug</option>
+								<option value="09">Sep</option>
+								<option value="10">Oct</option>
+								<option value="11">Nov</option>
+								<option value="12">Dec</option>
+							</select>
+						</div>
+					    <div class="col-xs-4 col-md-4">
+							<select name="day" required="" class = "form-control input-md">
+								<option value="">Day</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+							</select>                        
+						</div>
+					 	<div class="col-xs-4 col-md-4">
+					        <select name="year" required="" class = "form-control input-md">
+					        	<option>Year</option>
+								<option value="1935">1935</option>
+								<option value="1936">1936</option>
+								<option value="1937">1937</option>
+								<option value="1938">1938</option>
+								<option value="1939">1939</option>
+								<option value="1940">1940</option>
+								<option value="1941">1941</option>
+								<option value="1942">1942</option>
+								<option value="1943">1943</option>
+								
+							</select>
+						</div>
+					</div>
+		    		<label>Gender : </label>                    
+				    <label class="radio-inline">
+				            <input type="radio" required="" name="gender" value="M" id=male /> Male
+				    </label>
+			        <label class="radio-inline">
+			            <input type="radio" required="" name="gender" value="F" id=female /> Female
+			        </label>
+			        <br />
+			        <button class="btn btn-md btn-default btn-block signup-btn" type="submit">
+			                        Create my account
+			        </button>
+		    	</form>          
+	    	</div>
+		</div>            
+	</div>
+</body>
