@@ -14,161 +14,335 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<!--custom css style1 -->
 	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	
 </head>
 <body>
 	<!--banner-->
 	<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 banner">
-        
+        <!--navbar-->
+	    <nav class="navbar navbar-inverse">
+	      <div class="container">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+	            <ul class="nav navbar-nav">
+	             	<li>
+	             		<a data-placement="bottom" data-toggle="popover" data-container="body" data-placement="left" type="button" data-html="true" href="#" id="login">
+	             		<span class="fa fa-bars" aria-hidden="true" style="margin:3px 0 0 0;color:white;">
+	             		</span>
+	             		</a>
+	             	</li>
+	            </ul>
+	          </button>
+	          <a class="navbar-brand text-uppercase" href="#">Angkorjobs</a>
+	        </div>
+	    
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="navigation">
+	            
+	            <!--popover content display menu-->
+	             <div id="popover-content" class="hide">
+	             	<form class="navbar-form" role="search" style="padding:0px;" >
+	                    <div class="input-group add-on" style="height:20px;">
+	                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+	                      <div class="input-group-btn">
+	                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+	                      </div>
+	                    </div>
+                	</form>
+	             	<ul class="myul">
+					 <li class="myul"><a href="#">Home</a></li>
+					 <li class="myul"><a href="#">Hidden Cameras</a></li>
+					 <li class="myul"><a href="#">CCTV Cameras</a></li>
+					 <li class="myul"><a href="#">Employee Theft</a></li>
+					 <li class="myul"><a href="#">Helpful Hints</a></li>
+					 <li class="myul"><a href="#">F.A.Q</a></li>
+					 <li class="myul"><a href="#">About Us</a></li>
+					 <li class="myul"><a href="#">Contact Us</a></li>
+					</ul>
+	             </div>
+	            <!--end popover-->
+	            <form class="hidden-xs navbar-form pull-right" role="search" style="padding:0px;" >
+                    <div class="input-group add-on">
+                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                      </div>
+                    </div>
+                </form>
+	        </div>
+	      </div>
+	    </nav>
+	<!--end navbar-->
     </div>
 
 	<!--end banner-->
-	<div class="container">
+	<div class="container" style="padding:0px;">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box1">
 			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 hidden-xs">
-				<form class="navbar-form" role="search" style="padding:0px;">
-			        <div class="input-group">
-			            <input type="text" class="form-control" placeholder="Search" name="q">
-			            <div class="input-group-btn">
-			                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-			            </div>
-			        </div>
-			    </form>
-				<div id="button">
-					<ul style="border-top:solid orange thin;border-bottom:solid orange thin;">
-					 <li><a class="myuper">Categories</a></li>
-					</ul>
-				</div>
-				<div id="button">
-					<ul>
-					 <li><a href="#">Home</a></li>
-					 <li><a href="#">Hidden Cameras</a></li>
-					 <li><a href="#">CCTV Cameras</a></li>
-					 <li><a href="#">Employee Theft</a></li>
-					 <li><a href="#">Helpful Hints</a></li>
-					 <li><a href="#">F.A.Q</a></li>
-					 <li><a href="#">About Us</a></li>
-					 <li><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
 			</div>
-			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 borderight ">
-				<div class="row myrow mybox1">
-					<a href="#">
-					    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mypad ">
-					    	<img src="images/t1.jpg" class="img-responsive">
-					    </div>
-					    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mypad">
-					    	<h4 class="mytitle">
-					    		Citymapper calls out RATP for blocking real-time data; agency says system needs upgrade 	
-					    	</h4>
-					    	<br>
-					    	<small class="mypostdate pull-right">
-					    	Jul/23/2016 <span class="mypostby">By Rithy</span>
-					    	</small>
 
-					    </div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="padding:0px;">
+				<div class="myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
+					<a href="#">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						    <img src="images/image.jpg" class="img-responsive" style="margin-top:5px;">
+						</div>
 					</a>
 				</div>
-				<div class="row myrow mybox1">
+				<div class="row myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
 					<a href="#">
-					    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mypad ">
-					    	<img src="images/t1.jpg" class="img-responsive">
-					    </div>
-					    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mypad">
-					    	<h4 class="mytitle">
-					    		Citymapper calls out RATP for blocking real-time data; agency says system needs upgrade 	
-					    	</h4>
-					    	<br>
-					    	<small class="mypostdate pull-right">
-					    	Jul/23/2016 <span class="mypostby">By Rithy</span>
-					    	</small>
-
-					    </div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border"
+							style="border-bottom: 1px solid #d8d8d8;">
+						    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 mypad ">
+						    	<img src="images/t1.jpg" class="img-responsive" style="padding:0px;margin-top: 13px;border-top:1px solid thin">
+						    </div>
+						    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 mypad">
+						    	<h4 class="mytitle">
+						    		Citymapper calls out RATP for blocking.	
+						    	</h4>
+						    	<small style="color: #a8a6a6;">
+						    		<i class="fa fa-calendar" aria-hidden="true"></i>
+							    	Jul/23/2016 <span>/</span>
+							    	<span >400$</span>
+							    	<span>(Account)(Full time)</span>
+							    </small>
+						    	<p>We need IT manager for our company. We need IT manager for our company We need IT manager for our company
+						    	</p>
+						    </div>
+						</div>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4 ">
+						<i class="fa fa-bookmark" aria-hidden="true"></i>
+						Save
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+						<i class="fa fa-share" aria-hidden="true"></i>
+						Share
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+							<label class="pull-right mymy">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							Detail
+							</label>
+						</span>
 					</a>
 				</div>
-				<div class="row myrow mybox1">
+				<div class="row myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
 					<a href="#">
-					    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mypad ">
-					    	<img src="images/t1.jpg" class="img-responsive">
-					    </div>
-					    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mypad">
-					    	<h4 class="mytitle">
-					    		Citymapper calls out RATP for blocking real-time data; agency says system needs upgrade 	
-					    	</h4>
-					    	<br>
-					    	<small class="mypostdate pull-right">
-					    	Jul/23/2016 <span class="mypostby">By Rithy</span>
-					    	</small>
-
-					    </div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border"
+							style="border-bottom: 1px solid #d8d8d8;">
+						    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 mypad ">
+						    	<img src="images/t1.jpg" class="img-responsive" style="padding:0px;margin-top: 13px;border-top:1px solid thin">
+						    </div>
+						    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 mypad">
+						    	<h4 class="mytitle">
+						    		Citymapper calls out RATP for blocking.	
+						    	</h4>
+						    	<small style="color: #a8a6a6;">
+						    		<i class="fa fa-calendar" aria-hidden="true"></i>
+							    	Jul/23/2016 <span>/</span>
+							    	<span >400$</span>
+							    	<span>(Account)(Full time)</span>
+							    </small>
+						    	<p>We need IT manager for our company. We need IT manager for our company We need IT manager for our company
+						    	</p>
+						    </div>
+						</div>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4 ">
+						<i class="fa fa-bookmark" aria-hidden="true"></i>
+						Save
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+						<i class="fa fa-share" aria-hidden="true"></i>
+						Share
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+							<label class="pull-right mymy">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							Detail
+							</label>
+						</span>
 					</a>
 				</div>
-				<div class="row myrow mybox1">
+				<div class="row myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
 					<a href="#">
-					    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mypad ">
-					    	<img src="images/t1.jpg" class="img-responsive">
-					    </div>
-					    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mypad">
-					    	<h4 class="mytitle">
-					    		Citymapper calls out RATP for blocking real-time data; agency says system needs upgrade 	
-					    	</h4>
-					    	<br>
-					    	<small class="mypostdate pull-right">
-					    	Jul/23/2016 <span class="mypostby">By Rithy</span>
-					    	</small>
-
-					    </div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border"
+							style="border-bottom: 1px solid #d8d8d8;">
+						    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 mypad ">
+						    	<img src="images/t1.jpg" class="img-responsive" style="padding:0px;margin-top: 13px;border-top:1px solid thin">
+						    </div>
+						    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 mypad">
+						    	<h4 class="mytitle">
+						    		Citymapper calls out RATP for blocking.	
+						    	</h4>
+						    	<small style="color: #a8a6a6;">
+						    		<i class="fa fa-calendar" aria-hidden="true"></i>
+							    	Jul/23/2016 <span>/</span>
+							    	<span >400$</span>
+							    	<span>(Account)(Full time)</span>
+							    </small>
+						    	<p>We need IT manager for our company. We need IT manager for our company We need IT manager for our company
+						    	</p>
+						    </div>
+						</div>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4 ">
+						<i class="fa fa-bookmark" aria-hidden="true"></i>
+						Save
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+						<i class="fa fa-share" aria-hidden="true"></i>
+						Share
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+							<label class="pull-right mymy">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							Detail
+							</label>
+						</span>
 					</a>
 				</div>
-				
+				<div class="row myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
+					<a href="#">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border"
+							style="border-bottom: 1px solid #d8d8d8;">
+						    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 mypad ">
+						    	<img src="images/t1.jpg" class="img-responsive" style="padding:0px;margin-top: 13px;border-top:1px solid thin">
+						    </div>
+						    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 mypad">
+						    	<h4 class="mytitle">
+						    		Citymapper calls out RATP for blocking.	
+						    	</h4>
+						    	<small style="color: #a8a6a6;">
+						    		<i class="fa fa-calendar" aria-hidden="true"></i>
+							    	Jul/23/2016 <span>/</span>
+							    	<span >400$</span>
+							    	<span>(Account)(Full time)</span>
+							    </small>
+						    	<p>We need IT manager for our company. We need IT manager for our company We need IT manager for our company
+						    	</p>
+						    </div>
+						</div>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4 ">
+						<i class="fa fa-bookmark" aria-hidden="true"></i>
+						Save
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+						<i class="fa fa-share" aria-hidden="true"></i>
+						Share
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+							<label class="pull-right mymy">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							Detail
+							</label>
+						</span>
+					</a>
+				</div>
+				<div class="row myrow mybox1 borderight" style="padding-left:0px;padding-right:0px;">
+					<a href="#">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border"
+							style="border-bottom: 1px solid #d8d8d8;">
+						    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2 mypad ">
+						    	<img src="images/t1.jpg" class="img-responsive" style="padding:0px;margin-top: 13px;border-top:1px solid thin">
+						    </div>
+						    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 mypad">
+						    	<h4 class="mytitle">
+						    		Citymapper calls out RATP for blocking.	
+						    	</h4>
+						    	<small style="color: #a8a6a6;">
+						    		<i class="fa fa-calendar" aria-hidden="true"></i>
+							    	Jul/23/2016 <span>/</span>
+							    	<span >400$</span>
+							    	<span>(Account)(Full time)</span>
+							    </small>
+						    	<p>We need IT manager for our company. We need IT manager for our company We need IT manager for our company
+						    	</p>
+						    </div>
+						</div>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4 ">
+						<i class="fa fa-bookmark" aria-hidden="true"></i>
+						Save
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+						<i class="fa fa-share" aria-hidden="true"></i>
+						Share
+						</span>
+						<span class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+							<label class="pull-right mymy">
+							<i class="fa fa-eye" aria-hidden="true"></i>
+							Detail
+							</label>
+						</span>
+					</a>
+				</div>
 
 			</div>
-			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 hidden-xs">
-				<div id="button">
-					<ul>
-					 <li><a class="myuper">Recommended</a></li>
-					</ul>
-				</div>
-				<div class="row">
-					<a href="#">
-						<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
-							<img src="images/t1.jpg" class="img-responsive">
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h4 class="mytitle">
-						    		Citymapper calls out RATP for blocking real-time.
-						    </h4>
-						</div>
-					</a>
-				</div>
-				<div class="row">
-					<a href="#">
-						<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
-							<img src="images/t1.jpg" class="img-responsive">
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h4 class="mytitle">
-						    		Citymapper calls out RATP for blocking real-time.
-						    </h4>
-						</div>
-					</a>
-				</div>
-				<div class="row">
-					<a href="#">
-						<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
-							<img src="images/t1.jpg" class="img-responsive">
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h4 class="mytitle">
-						    		Citymapper calls out RATP for blocking real-time.
-						    </h4>
-						</div>
-					</a>
-				</div>
+			
+			<!--recommended-->
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 hidden-xs" style="padding:0px;">
+				<div class="col-md-3" style="padding:0px;">
+	            	<div class="sidebar-nav-fixed pull-right affix" style="margin-top: 2px;">
+			            <div class="well">
+			                <div id="button">
+								<ul style="border-top:solid orange thin;">
+								  <li><a class="myuper">Categories</a></li>
+								</ul>
+							</div>
+							<div id="button">
+								<ul>
+								 <li><a href="#">Home</a></li>
+								 <li><a href="#">Hidden Cameras</a></li>
+								 <li><a href="#">CCTV Cameras</a></li>
+								 <li><a href="#">Employee Theft</a></li>
+								 <li><a href="#">Helpful Hints</a></li>
+								 <li><a href="#">F.A.Q</a></li>
+								 <li><a href="#">About Us</a></li>
+								 <li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+							<!--  <div id="button">
+								<ul style="border-top:solid orange thin;">
+								  	<li>
+								  	<a class="myuper"><img src="images/t1.jpg" class="img-responsive" /></a>
+								  	</li>
+								</ul>
+							</div> -->
+	                	</div>
+            			<!--/.well -->
+        			</div>
+            		<!--/sidebar-nav-fixed -->
+       			</div>
 			</div>
-				
 		</div>
 	</div>
+	<!--footer start from here-->
+	<br>
+	<!-- <footer>
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-4 col-sm-6 footerleft ">
+	      </div>
+	      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+	      </div>
+	      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+	      
+	      </div>
+	      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+	      </div>
+	    </div>
+	  </div>
+	</footer> -->
+	<!--footer start from here-->
+	<script type="text/javascript">
+    	/*display list*/
+		$("[data-toggle=popover]").popover({
+		    html: true, 
+		  content: function() {
+		          return $('#popover-content').html();
+		  }
 
+		});
+	</script>
 </body>	
 </html>
+<!-- http://www.bootply.com/tagged/fixed -->
