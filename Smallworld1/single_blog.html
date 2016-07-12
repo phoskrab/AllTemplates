@@ -13,6 +13,16 @@
 	<!--end scrip js-->
 </head>
 <body>
+<!--facebook add comment-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1739522826292923";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--end facebook add comment-->
 <nav class="navbar navbar-trans" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -75,7 +85,8 @@
 
                   <p class="pull-left myp">
                     n a nutshell, server configuration management (also popularly referred to as IT Automation) is a solution for turning your infrastructure administration into a codebase, describing all processes necessary for deploying a server in a set of provisioning scripts that can be versioned and easily reused. It can greatly improve the integrity of any server infrastructure over time.
-
+                  </p>
+                  <p class="pull-left myp">
                     In a previous guide, we talked about the main benefits of implementing a configuration management strategy for your server infrastructure, how configuration management tools work, and what these tools typically have in common.
 
                     This part of the series will walk you through the process of automating server provisioning using Chef, a powerful configuration management tool that leverages the Ruby programming language to automate infrastructure administration and provisioning. We will focus on the language terminology, syntax, and features necessary for creating a simplified example to fully automate the deployment of an Ubuntu 14.04 web server using Apache.
@@ -83,14 +94,11 @@
 
                 </span>
             </div>
-              <div class="col-sm-1"></div>
-              <div class="col-sm-8">
-              <textarea id="yourMessage" class="form-control" rows="1"></textarea>
-              <br>
-              <center>
-                <button type="submit" class="btn btn-default btn-sm">Submit</button>
-              </center>
-            </div>
+              <!--facebook comment-->
+              <div class="col-sm-12">
+                <div class="fb-comments" data-href="https://www.facebook.com/?ref=tn_tnmn" data-numposts="3"></div>
+              </div>
+              <!--end facebook comment-->
         </div>
         <!--end blog-->
       </div>

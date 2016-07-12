@@ -142,13 +142,14 @@ letter-spacing: -.5px;
   padding-top: 38px;
 }
 .myp{
- font-size: 20px;
+ font-size: 18px;
 line-height: 30px;
 margin: 0 0 22px;
-font-weight: 400;
+font-weight:normal;
 color: #22202B;
 text-align: -moz-left;
 text-align: -webkit-auto; 
+/*font-family: "ButlerRegular";*/
 }
 .myh3{
   font-size: 40px;
