@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: .45em 0;
+    color: #333;
+    padding: 0;
+}
+/*larg overlay */
+.bg-overlay {
+    background: linear-gradient(rgba(32, 37, 149, 0.22), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 250px;
+    padding-top: 50px;
+    border-radius: 0px;
+}
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+    color: RGBA(37, 55, 61, 0.75);
+}
+@media (max-width: 600px){
+	.h3-title {
+		font-size: 14px;
+	}
+    .description {
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 15px;
+    }
+}
+
+.padding {
+    padding: 0px;
+}
+.box-adv {
+    padding-top: 10px;
+
+}
+.single-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #25373D;
+}
