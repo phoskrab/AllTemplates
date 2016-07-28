@@ -217,9 +217,14 @@ color: #6570ed;
     border: 0px solid transparent;
 }
 .navbar-inverse .navbar-toggle:hover {
-     background-color:#43413c;
+     /*background-color:#43413c;*/
 }
-
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #43413c;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #43413c;
+}
 .mypostdate{
    font-family: OpenSansRegular;
 color: #997b65;

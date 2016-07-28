@@ -1,0 +1,174 @@
+
+.sr-only{
+	color:black;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: #FFFFFF;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: RGBA(255, 255, 255, 0);
+}
+p {
+	font-size: 17px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #666;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+
+}
+.mycontainer1{
+	background-color: #F8F8F8;
+	border-radius: 3px;
+}
+.mything{
+	font-size: 26px;
+	color: white;
+	text-indent: 5px;
+	margin-left: 34px;
+}
+footer {
+    /*margin: 50px 0;*/
+    background-color: #7A7A7B;
+}
+.navbar-inverse {
+   background-color: #FDFDFF;
+border-color: #CCC;
+}
+.navbar-form .input-group > .form-control {
+    width: 100%;
+    background-color:white;
+}
+.item1{
+	padding-top: 30px;
+	margin-top: 33px;
+}
+/*slide*/
+/*slide*/
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 300px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+	font-size: 16px;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	margin-right: 10px;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+	padding: 10px;
+}
+
+.header-text h3 span {
+	padding: 15px;
+background: rgba(173, 152, 152, 0.61) none repeat scroll 0% 0%;
+opacity: 0.9;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+.title1{
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top: 3px;
+	
+}
+.title,h5{
+	display: inline-block;
+font-size: 26px;
+color: white;
+}
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+.slide{
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+/*end slide*/
+.tips{
+	color:white;
+}

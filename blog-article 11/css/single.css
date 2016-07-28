@@ -1,0 +1,26 @@
+.myp{
+font-family: OpenSansRegular;
+padding-right: 50px;
+margin-top: 15px;
+font-size: 15px;
+color: #43413c;
+line-height: 25px;
+}
+.myleft{
+	border-left: 1px solid gray thin;
+}
+body{
+	background-color: white;
+}
+.myfrm{
+	margin-top: 25px;
+	display: none;
+}
+@media screen and (max-width: 700px) {
+	.container,.container-fluid {
+		padding: 0px;
+	}
+	.myp {
+		padding: 0px;
+	}
+}
