@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/booking.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	 <link rel="stylesheet" type="text/css" href="css/coreSlider.css">
+	<link rel="stylesheet" type="text/css" href="assets/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/images-grid.css">
+	<!--Script start -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/sticky.js"></script>
+	<script type="text/javascript" src="js/images-grid.js'"></script>
+	<script type="text/javascript" src="assets/viewportchecker.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+    <div class="container container-nav">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="index.html">TOURSANAK</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="category.html">Tour</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>&nbsp;</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <form class="navbar-form navbar-right" action="#" method="GET">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="Search..." id="query" name="search" value="" type="text">
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-success"><span  class="fa fa-search" aria-hidden="true"></span></button>
+                        </div>
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="banner post">
+	<div class="bg-overlay">
+		<div class="row text-center">
+		</div>
+	</div>
+</div>
+<div class="container frm">
+	<div class="hidden-xs col-sm-3 col-md-3 col-lg-3"></div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="form">
+		      	<form action="" method="">
+				  <input class="input-type" type="text" id="name" name="name" required="" placeholder="Enter your name...">
+				  <input class="input-type" type="email" id="email" name="email" required="" placeholder="Email address...">
+				  <textarea class="form-control hresize" placeholder="Write your request here..."></textarea>
+				  <button type="submit" class="btn btn-default btn1">
+				  			<label class="choose">Choosen booking</label><br>
+                            <p>
+						    From: July 14, 2016<br>
+							To : July 14, 2016 
+                            </p>
+				  </button>
+				  <input class="input-type" type="submit" class="btn btn-default" name="sub" value="Book">
+				</form>
+			</div>
+		</div>
+		<div class="hidden-xs col-sm-3 col-md-3 col-lg-3"></div>
+	</div>
+</div>
+<footer id="footer">
+    <div class="container  post">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 column">
+                <h4>Information</h4>
+                <ul class="nav">
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Benefits</a></li>
+                    <li><a href="">Developers</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Follow Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Contact Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Headquarters</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Customer Service</h4>
+                <ul class="nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/row-->
+        <p class="text-right">Hosted by Amoogli.com ©2016</p>
+    </div>
+</footer>
+
+<!--scroll effect-->
+<script type="text/javascript" src="assets/viewportchecker.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.no').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+});            
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.post').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+});            
+</script>
+<!--sticky-->
+<script type="text/javascript">
+    $(document).ready(function(){
+       $("#sidebar, #main_column").stick_in_parent();
+    });
+</script>
+<!--end sticky-->
+</body>
+</html>
