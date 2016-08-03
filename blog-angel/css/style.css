@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+
+
+*, *:after, *:before {
+  -webkit-box-sizing       : border-box; 
+  -moz-box-sizing          : border-box;
+   box-sizing               : border-box;
+ }
+body, html {
+  font-size                : 100%;
+  padding                  : 0;
+  margin                   : 0;
+}
+
+body {
+  font-family               : 'Lato',Arial, sans-serif;
+  color                     : #777;
+  font-size                 : 16px;
+  line-height               : 1.6;
+  background                : RGBA(100, 196, 206, 0.7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family             : "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight             : normal;
+    line-height             : 1.5em;
+    margin                  : .45em 0;
+    color                   : #333;
+    padding                 : 0;
+}
+.container {
+  max-width: 900px;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+.myimg {
+  border-radius             : 2px;
+  border                    : solid thin rgba(128, 128, 128, 0.22);
+}
+.padding-top {
+  padding-top               : 15px;
+}
+.padding-top:hover {
+  transition:all 0.5s ease;
+  opacity                   :0.60;
+}
+address {
+    margin-bottom           : 20px;
+    font-style              : normal;
+    line-height             : 1.42857143;
+    color                   : white;
+    font-size               : 20px;
+}
+.hidden {
+  display                   : block! important;
+}
+@media screen and (max-width: 800px) {
+  .img-responsive {
+    width                   : 100%;
+  }
+}
+.img-circle {
+    border-radius           : 50%;
+    border                  : solid 4px rgba(207, 194, 194, 0.68) !important;
+}

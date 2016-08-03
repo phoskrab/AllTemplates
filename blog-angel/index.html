@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<!-- jQuery library -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/viewportchecker.js"></script>
+	<script type="text/javascript" src="js/owl-slider.js"></script>
+	<script type="text/javascript" src="js/owl-collapse.js"></script>
+	<script type="text/javascript" src="js/owl-transition.js"></script>
+	<script>
+	    $(document).ready(function($) {
+	      $("#owl-example").owlCarousel();
+	    });
+
+	    $("body").data("page", "frontpage");
+    </script>
+</head>
+<body>
+	<header style="margin-top: 10px;">
+		<div class="container">
+			<div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="row post">
+					<img src="img/index.jpeg" class="img-responsive">
+					<hr>
+					<center>
+						<address class="post">
+							<label>Email:</label>	 Smallangel@gmail.com
+						</address>
+					</center>
+				</div>
+			</div>
+			<div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+			</div>
+		</div>
+	</header>
+	<!--slide-->
+  	<div class="container">
+  		<center>
+			<label style="padding-top: 17px; color:white; font-size: 20px;padding-bottom:20px;">Startup</label>
+		</center>
+      	<div class="row">
+            <div id="owl-example" class="owl-carousel post">
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>client-smalworld</h4>
+                </div>
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>Young_Startups Cambodia</h4>
+                </div>
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>Impact-Hub Phnom Penh</h4>
+                </div>
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>ICS Asia</h4>
+                </div>
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>Social Enterprise Cambodia</h4>
+                </div>
+                <div class="item steelGray">
+                  <img src="img/index.jpeg" alt="Tons of Opotions">
+                    <h4>Career Employment For Youth</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--end slide-->
+	<div class="container" style="padding:0px;">
+		
+		<center class="invest">
+			<label style="padding-top: 17px; color:white; font-size: 20px;">Investors</label>
+		</center>
+		<hr>
+		<div class="row post">
+			<div class="col-lg-4 col-sm-4 text-center">
+				<img class="img-circle img-responsive" style="margin: 0 auto;" src="img/profile.jpeg" alt="">
+				<h3>John Smith </h3>
+				<small>Job Title</small>
+				<p>What does this team member to? Keep it short.</p>
+			</div>
+			<div class="col-lg-4 col-sm-4 text-center">
+				<img class="img-circle img-responsive" style="margin: 0 auto;" src="img/profile.jpeg" alt="">
+				<h3>John Smith </h3>
+				<small>Job Title</small>
+				<p>What does this team member to? Keep it short.</p>
+			</div>
+			<div class="col-lg-4 col-sm-4 text-center">
+				<img class="img-circle img-responsive" style="margin: 0 auto;" src="img/profile.jpeg" alt="">
+				<h3>John Smith </h3>
+				<small>Job Title</small>
+				<p>What does this team member to? Keep it short.</p>
+			</div>
+		</div>
+	</div>
+	<!--scroll effect-->
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery('.post').addClass("hidden").viewportChecker({
+			    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+			    offset: 100    
+			   });   
+		});            
+	</script>
+</body>
+</html>
