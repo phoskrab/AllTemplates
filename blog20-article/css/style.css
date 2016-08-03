@@ -1,0 +1,42 @@
+/*by amoogli */
+body {
+    background                      : #f9f8f3;
+    color                           : #454545;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.padding-top {
+    margin-top                      : 5px;
+}
+
+.title {
+    padding                         : 0 1.5em 0.5em 0 !important;
+    font-size                       : 20px;
+    font-weight                     : 100;
+}
+a {
+    color                           : rgba(69, 64, 64, 0.87);
+}
+.title-sub {
+    font-size                       : 20px;
+    font-family                     : 'Helvetica,Arial,sans-serif';
+}
+.small-title {
+    font-size                       : 17px;
+    font-weight                     : 200;
+}
+p {
+    font-family                     : san sarif !important;
+    font-size                       : 20px;
+}
+
+.by {
+    line-height: 150px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
